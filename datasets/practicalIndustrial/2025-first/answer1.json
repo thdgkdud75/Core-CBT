@@ -1,81 +1,117 @@
-[
+﻿[
   {
     "title": "정보처리산업기사 실기",
     "answers": [
       {
         "problem_number": 1,
         "correct_answer_index": 0,
-        "correct_answer_text": "5"
+        "correct_answer_text": "HTTP"
       },
       {
         "problem_number": 2,
         "correct_answer_index": 0,
-        "correct_answer_text": "1) 데이터 링크 2) 네트워크"
+        "correct_answer_text": "내장 SQL",
+        "accepted_answers": [
+          "Embedded SQL"
+        ]
       },
       {
         "problem_number": 3,
         "correct_answer_index": 0,
-        "correct_answer_text": "① 하드웨어 ② 소프트웨어 ③ 운영체제"
+        "correct_answer_text": "① 3 ② 4"
       },
       {
         "problem_number": 4,
         "correct_answer_index": 0,
-        "correct_answer_text": "sudo"
+        "correct_answer_text": "토큰 버스",
+        "accepted_answers": [
+          "Token Bus",
+          "토큰버스"
+        ]
       },
       {
         "problem_number": 5,
         "correct_answer_index": 0,
-        "correct_answer_text": "80"
+        "correct_answer_text": "라운드 로빈",
+        "accepted_answers": [
+          "Round Robin",
+          "라운드로빈"
+        ]
       },
       {
         "problem_number": 6,
         "correct_answer_index": 0,
-        "correct_answer_text": "RR (Round Robin, 라운드 로빈)"
+        "correct_answer_text": "① 온프레미스 ② SNMP"
       },
       {
         "problem_number": 7,
         "correct_answer_index": 0,
-        "correct_answer_text": "토큰 버스"
+        "correct_answer_text": "6"
       },
       {
         "problem_number": 8,
         "correct_answer_index": 0,
-        "correct_answer_text": "ㄷ. Embedded SQL"
+        "correct_answer_text": "① CREATE ② ALTER ③ DROP"
       },
       {
         "problem_number": 9,
         "correct_answer_index": 0,
-        "correct_answer_text": "ㄱ, ㄴ"
+        "correct_answer_text": "Integration test"
       },
       {
         "problem_number": 10,
         "correct_answer_index": 0,
-        "correct_answer_text": "차수 3, 카디널리티 4"
+        "correct_answer_text": "ㄱ, ㄴ"
       },
       {
         "problem_number": 11,
         "correct_answer_index": 0,
-        "correct_answer_text": "Integration test"
+        "correct_answer_text": "①CHECK  ②IN"
       },
       {
         "problem_number": 12,
         "correct_answer_index": 0,
-        "correct_answer_text": "① MIS ② SNMP"
+        "correct_answer_text": "ㄷ, ㄱ, ㅂ"
       },
       {
         "problem_number": 13,
         "correct_answer_index": 0,
-        "correct_answer_text": "① CREATE ② ALTER ③ DROP"
+        "correct_answer_text": "6"
       },
       {
         "problem_number": 14,
         "correct_answer_index": 0,
-        "correct_answer_text": "ㄱ"
+        "correct_answer_text": "참조"
+      },
+      {
+        "problem_number": 15,
+        "correct_answer_index": 0,
+        "correct_answer_text": "RIP"
+      },
+      {
+        "problem_number": 16,
+        "correct_answer_index": 0,
+        "correct_answer_text": "예: 1: ㄷ / 2: ㄹ / 3: ㄱ / 4: ㄴ"
+      },
+      {
+        "problem_number": 17,
+        "correct_answer_index": 0,
+        "correct_answer_text": "5 13 22 43 75"
+      },
+      {
+        "problem_number": 18,
+        "correct_answer_index": 0,
+        "correct_answer_text": "17"
+      },
+      {
+        "problem_number": 19,
+        "correct_answer_index": 0,
+        "correct_answer_text": "ㄷ"
       },
       {
         "problem_number": 20,
         "correct_answer_index": 0,
-        "correct_answer_text": "6"
+        "correct_answer_text": "13"
       }
     ]
   }

@@ -10,7 +10,15 @@
       {
         "problem_number": 2,
         "correct_answer_index": 0,
-        "correct_answer_text": "1. 개체 : 고객, 책, 출판사 / 2. 관계 : 구매, 공급"
+        "correct_answer_text": "고객, 책, 출판사 / 구매, 공급",
+        "accepted_answers": [
+          "고객 책 출판사 / 구매 공급",
+          "고객, 책, 출판사 / 구매 공급",
+          "고객 책 출판사 / 구매, 공급",
+          "개체: 고객, 책, 출판사 / 관계: 구매, 공급",
+          "개체 : 고객, 책, 출판사 / 관계 : 구매, 공급",
+          "고객,책,출판사/구매,공급"
+        ]
       },
       {
         "problem_number": 3,
@@ -20,7 +28,14 @@
       {
         "problem_number": 4,
         "correct_answer_index": 0,
-        "correct_answer_text": "2"
+        "correct_answer_text": "2",
+        "accepted_answers": [
+          "2",
+          "2 ",
+          "2)",
+          "(2)",
+          "2번"
+        ]
       },
       {
         "problem_number": 5,
@@ -45,7 +60,15 @@
       {
         "problem_number": 9,
         "correct_answer_index": 0,
-        "correct_answer_text": "Header Length : 4 / Destination IP address : 32"
+        "correct_answer_text": "4, 32",
+        "accepted_answers": [
+          "4, 32",
+          "4 32",
+          "4 / 32",
+          "4,32",
+          "4\n32",
+          "Header Length: 4 / Destination IP Address: 32"
+        ]
       },
       {
         "problem_number": 10,
@@ -55,7 +78,15 @@
       {
         "problem_number": 11,
         "correct_answer_index": 0,
-        "correct_answer_text": "빅뱅(bigbang) 테스트"
+        "correct_answer_text": "빅뱅(bigbang) 테스트",
+        "accepted_answers": [
+          "빅뱅 테스트",
+          "빅뱅(big bang) 테스트",
+          "big bang 테스트",
+          "Big Bang 테스트",
+          "BigBang 테스트",
+          "빅뱅 통합 테스트"
+        ]
       },
       {
         "problem_number": 12,
@@ -74,7 +105,15 @@
       {
         "problem_number": 14,
         "correct_answer_index": 0,
-        "correct_answer_text": "ㄴ, ㄷ, ㄹ, ㅁ"
+        "correct_answer_text": "ㄱ, ㄷ, ㅁ, ㅅ",
+        "accepted_answers": [
+          "ㄱ, ㄷ, ㅁ, ㅅ",
+          "ㄱ ㄷ ㅁ ㅅ",
+          "ㄱ,ㄷ,ㅁ,ㅅ",
+          "ㄱ/ㄷ/ㅁ/ㅅ",
+          "ㄱ ㄷ ㅁ ㅅ",
+          "ㄱ, ㄷ, ㅁ, ㅅ."
+        ]
       },
       {
         "problem_number": 15,
@@ -89,9 +128,9 @@
       {
         "problem_number": 17,
         "correct_answer_index": 0,
-        "correct_answer_text": "1. ㄷ / 2. ㅁ",
+        "correct_answer_text": "1. DML 컴파일러 / 2. 트랜잭션 관리자",
         "accepted_answers": [
-          "1: ㄷ / 2: ㅁ"
+          "1: DML 컴파일러 / 2: 트랜잭션 관리자"
         ]
       },
       {

@@ -38,6 +38,11 @@
         "correct_answer_text": "DNS"
       },
       {
+        "problem_number": 8,
+        "correct_answer_index": 0,
+        "correct_answer_text": "스택"
+      },
+      {
         "problem_number": 9,
         "correct_answer_index": 0,
         "correct_answer_text": "75"
@@ -80,7 +85,7 @@
       {
         "problem_number": 16,
         "correct_answer_index": 0,
-        "correct_answer_text": "제1 정규화"
+        "correct_answer_text": "제1 정규형"
       },
       {
         "problem_number": 17,

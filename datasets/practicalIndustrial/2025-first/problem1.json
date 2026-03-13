@@ -1,106 +1,140 @@
-[
+﻿[
   {
     "title": "정보처리산업기사 실기",
     "problems": [
       {
         "problem_number": 1,
-        "question_text": "다음 자바 프로그램을 실행했을 때 출력 결과로 옳은 것은?",
-        "examples": "public class Gisafirst {\n    public static void main(String[] args) {\n        int ans = 0;\n        for (int i = 0; i < 50; i = (int) Math.pow(2, i)) {\n            ans++;\n        }\n        System.out.println(ans);\n    }\n}",
-        "input_type": "single"
+        "question_text": "다음 설명에 해당하는 알맞은 용어를 영문 약어 4글자로 쓰시오.",
+        "examples": "- 월드 와이드 웹(WWW)에서 HTML 문서를 송수신 하기 위한 표준 프로토콜이다.\n- 서비스 요청(Request)과 응답(Response)하는 프로토콜 구조를 가지며, GET과 POST 메소드를 통해 메시지를 주고 받는다.\n- 포트 번호는 80번을 사용한다.",
+        "input_type": "single",
+        "answer_format_hint": "대문자로 입력하세요"
       },
       {
         "problem_number": 2,
-        "question_text": "다음은 OSI 7계층과 각 계층에서 송수신되는 프로토콜 데이터 단위(PDU)이다. <보기>를 참고하여 괄호 1) ~ 2)에 들어갈 가장 적합한 계층을 쓰시오.",
-        "examples": "OSI 7계층 : 1) 계층 - 프레임(Frame)\nOSI 7계층 : 2) 계층 - 패킷(Packet)\n\n<보기>\n네트워크, 전송, 표현, 응용, 데이터 링크, 세션, 물리",
-        "input_type": "multi_blank",
-        "answer_format_hint": "예: 1) 값 / 2) 값"
+        "question_text": "데이터베이스에 대한 다음 설명에서 괄호에 공통으로 들어갈 알맞은 답을 쓰시오.",
+        "examples": "-(  )은 응용 프로그램 내에 데이터베이스에서 사용하는 데이터를 정의하거나 질의하는 SQL 문장을 내포하여 프로그램이 실행될때 함께 실행됟록 호스트 프로그램 언어로 만든 프로그램에 삽입된 SQL 이다.\n-(  )실행문은 호스트 언어에서 실행문이 나타날 수 있는 곳이면 프로그램의 어느곳에나 사용할 수 있다.",
+        "input_type": "single"
       },
       {
         "problem_number": 3,
-        "question_text": "다음은 컴퓨터 시스템을 구성하는 주요 요소에 대한 설명이다. <보기>를 참고하여 각 설명에 해당하는 용어를 쓰시오.",
-        "examples": "① 컴퓨터의 물리적인 장치로서, 중앙처리장치(CPU), 기억장치, 입출력 장치 등을 포함한다.\n② 하드웨어를 제어하고 사용자가 컴퓨터를 효율적으로 사용할 수 있도록 하는 프로그램의 집합이다.\n③ 하드웨어와 응용 프로그램 사이에서 자원을 관리하고, 프로그램 실행을 제어하는 시스템 소프트웨어이다.\n\n<보기>\n하드웨어, 소프트웨어, 운영체제",
+        "question_text": "다음 <회원> 테이블의 차수(Degree)와 카디널리티(Cardinality)를 쓰시오.",
+        "examples": "<회원>\n이름\t주소\t성별\n최시연\t마포\t여\n윤정식\t서대문\t남\n이상희\t성북\t남\n김향기\t노원\t여\n\n① 차수(Degree):\n② 카디널리티(Cardinality):",
         "input_type": "multi_blank",
         "answer_format_hint": "예: ① 값 ② 값"
       },
       {
         "problem_number": 4,
-        "question_text": "다음 설명에 해당하는 UNIX 명령어를 쓰시오.",
-        "examples": "일반 사용자가 시스템 관리자(root) 권한으로 명령어를 실행할 수 있게 해준다.",
+        "question_text": "다음 설명에 해당하는 알맞은 용어를 쓰시오",
+        "examples": "- 이더넷(Ethernet)의 물리적 구조와 토큰 링(Token Ring)의 논리적 전송 방식으로 결합한 상태로 물리적으로는 버스형으로 연결되어 있으나 실제 동작은 논리적으로 구성된 링 형태로 수행된다.\n- 동축 케이블을 전송매체로 사용하며, 실시간 처리가 요구되는 공장 자동화와 같은 응용에 적용된다.",
         "input_type": "single"
       },
       {
         "problem_number": 5,
-        "question_text": "??? ?? ??? ??? ????. ?? ?? ??? ??? ???.\n\n???? ( )?? ? ??? ????? ?? ?????? ??? ???? ??????.",
-        "examples": "",
-        "input_type": "single",
-        "answer_format_hint": "?: 80",
-        "accepted_answers": [
-          "80",
-          "80?"
-        ]
-      },
-      {
-        "problem_number": 6,
-        "question_text": "다음에서 설명하는 CPU 스케줄링 알고리즘을 쓰시오.",
-        "examples": "시분할 시스템을 위해 설계된 선점형 스케줄링의 하나로서, 프로세스들 사이에 우선순위를 두지 않고, 순서대로 시간 단위(Time Quantum)로 CPU를 할당하는 방식의 알고리즘이다. 프로세스는 같은 크기의 CPU 시간을 할당하고, 프로세스가 할당된 시간 내에 처리를 완료하지 못하면 준비 큐 리스트의 가장 뒤로 보내지고, CPU는 대기 중인 다음 프로세스로 넘어간다. 만약 할당되는 시간이 클 경우 FCFS 스케줄링과 비슷하다.",
+        "question_text": "다음 설명에 해당하는 스케줄링 기법을 쓰시오.",
+        "examples": "- 시분할 시스템(Time Sharing System)을 위해 고안된 방식으로, FCFS(FIFO) 알고리즘을 선점 형태로 변형한 기법이다.\n- FCFS 기법과 같이 준비상태 큐에 먼저 들어온 프로세스가 먼저 CPU를 할당받지만 각 프로세스는 시간 할당량(Time Slice, Quantum)동안만 실행한 후 실행이 완료되지 않으면 다음 프로세스에게 CPU를 넘겨주고 준비상태 큐의 가장 뒤로 배치된다.\n- 할당되는 시간의 크기가 작으면 작은 프로세스들에게 유리하다",
         "input_type": "single"
       },
       {
+        "problem_number": 6,
+        "question_text": "다음 설명에서 괄호에 들어갈 알맞은 답을 쓰시오.",
+        "examples": "-( 1 ): 기업에서 자체적으로 서버, 네트워크 등 IT 인프라를 직접 보유하고 관리 및 운영하는 방식이다.\n-( 2 ): TCP/IP의 네트워크 관리 프로토콜로, 라우터나 허브 등 네트워크 기기의 네트워크 정보를 네트워크 관리 시스템에 보내는데 사용되며, 에이전트(Agent)는 161번 포트를, 관리 시스템(Manager)은 162번 포트를 사용한다.",
+        "input_type": "multi_blank",
+        "answer_format_hint": "예: ① 값 ② 값"
+      },
+      {
         "problem_number": 7,
-        "question_text": "다음에서 설명하는 네트워크 매체 접근 방식을 쓰시오.",
-        "examples": "이더넷과 토큰링의 특징을 합친 형태이다. 실시간으로 처리해야 하는 공장 자동화에 많이 응용된다. MAC 기법 중 토큰링 방식이며 논리적, 순차적으로 돌아가면서 데이터를 전송하고 전송할 데이터가 없으면 다음으로 넘어간다. CSMA/CD와 달리 데이터 충돌을 예방한다.",
+        "question_text": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오.",
+        "examples": "public class Main {\n  public static void main(String[] args) {\n    B a = new B(3);\n    B b = new B(3);\n    B[] bs = {a, b};\n    B temp = bs[0];\n    bs[1] = bs[0];\n    bs[0] = temp;\n    bs[0].a += bs[1].a;\n    System.out.print(bs[0].a);\n  }\n}\nclass B { int a; B(int a) { this.a = a; } }",
         "input_type": "single"
       },
       {
         "problem_number": 8,
-        "question_text": "다음 설명에서 괄호 안에 알맞은 SQL 유형을 〈보기〉에서 골라 기호를 쓰시오.",
-        "examples": "호스트 언어를 사용하여 데이터베이스에 접근할 때 사용하는 SQL로, 응용 프로그램 코드 내에 직접 삽입하여 사용한다.\n\n〈보기〉\nㄱ. Interactive SQL\nㄴ. Dynamic SQL\nㄷ. Embedded SQL\nㄹ. Stored SQL",
-        "input_type": "single"
+        "question_text": "SQL에서 DDL(Date Define Language)은 DB구조, 데이터 형식, 접근방식 등 DB를 구축하거나 수정할 목적으로 사용하는 언어이다, 괄호(1~3)에 들어갈 알맞은 DDL의 종류를 쓰시오",
+        "examples": "-( 1 ): 스키마, 도메인, 테이블, 뷰, 인덱스 등을 정의함\n-( 2 ): 테이블에 대한 정의를 변경함\n-( 3 ): 스키마, 도메인, 테이블 뷰, 인덱스 등을 삭제함",
+        "input_type": "multi_blank",
+        "answer_format_hint": "대문자로 입력하세요"
       },
       {
         "problem_number": 9,
-        "question_text": "다음 쉘(Shell)의 특징으로 옳은 것을 〈보기〉에서 모두 골라 기호를 쓰시오.",
-        "examples": "〈보기〉\nㄱ. 명령어 해석기로서의 역할을 수행한다.\nㄴ. 주기억장치에 상주하지 않고, 명령어가 포함된 파일 형태로 존재하며 보조기억장치에서 교체 처리가 가능하다.\nㄷ. 응용프로그램과 하드웨어의 인터페이스 역할을 한다.\nㄹ. 파이프라인 방식의 입출력이 불가능하다.\nㅁ. 컴파일러 및 로더의 기능을 수행한다.",
+        "question_text": "애플리케이션 테스트에 대한 다음 설명에 해당하는 테스트 기법을 <보기>에서 찾아 쓰시오.",
+        "examples": "- 단위 테스트가 완료된 모듈들을 결합하여 하나의 시스템으로 완성시키는 과정에서의 테스트를 의미한다\n- 모듈 간 또는 통합된 컴포넌트 간의 상호 작용 오류를 검사한다.\n- 단위 테스트가 끝난 모듈을 통합하는 과정에서 발생하는 오류 및 결함을 찾는 테스트이다.\n- 비점진적 방식과 점진적 방식으로 구분할 수 있다.\n<보기>\n-Unit Test\t-Integration Test\t-System Test\t-Acceptance Test\n-User Test\t-Beta Test\t-Alpha Test\t-Blackbox Test",
         "input_type": "single"
       },
       {
         "problem_number": 10,
-        "question_text": "다음 릴레이션의 차수(Degree)와 카디널리티(Cardinality)를 각각 구하시오.",
-        "examples": "학번\t이름\t학과\n2021001\t홍길동\t컴퓨터공학\n2021002\t이순신\t소프트웨어\n2021003\t강감찬\t네트워크\n2021004\t유관순\t컴퓨터공학",
-        "input_type": "single"
+        "question_text": "다음에 제시된 내용에서 UNIX 시스템 구성 요소인 쉘(Shell)의 특징을 모두 골라 기호로 쓰시오.",
+        "examples": "ㄱ) 사용자의 명령어를 인식하여 프로그램을 호출하고 명령을 수행하는 명령어 해석기이다\nㄴ) 주기억장치에 상주하지 않고, 명령어가 포함된 파일 형태로 존재하며 보조 기억장치에서 교체 처리가 가능하다\nㄷ) 컴퓨터가 부팅될 때 주기억장치에 적재된 후 상주하면서 실행된다.\nㄹ) 하드웨어를 보호하고, 프로그램과 하드웨어 간의 인터페이스 역활을 담당한다.\nㅁ) 프로세스 관리, 기억장치 관리, 파일 관리, 데이터 전송 및 변환 등 여러 가지 기능을 수행한다",
+        "input_type": "single",
+        "answer_format_hint": "예: ㄱ, ㄴ"
       },
       {
         "problem_number": 11,
-        "question_text": "다음 설명에 해당하는 테스트를 〈보기〉에서 골라 쓰시오.",
-        "examples": "단위 테스트(Unit Test) 다음 단계로 수행하는 테스트로, 모듈 간 인터페이스 및 상호 작용을 검증한다.\n\n〈보기〉\nㄱ. Acceptance test\nㄴ. Integration test\nㄷ. System test\nㄹ. Regression test",
-        "input_type": "single"
+        "question_text": "다음 <사원> 테이블의 정의문과 <조건>을 참고하여 괄호(1, 2)에 들어갈 알맞은 답을 쓰시오.",
+        "examples": "CREATE TABLE 사원\n\t(직원코드 NUMBER NOT NULL,\n\t성명 CHAR(10) NUQUE,\n\t직책 CHAR(10) ( 1 )(직책( 2 )('사원', '대리', '과장', '팀장')),\n\t연봉 NUMBER);\n\n<조건>\n- '직원코드' 속성은 NULL을 갖지 않는다.\n- '성명' 속성은 중복 값을 허용하지 않는다.\n- '직책' 속성에는 '사원', '대리', '과장', '팀장' 중 하나의 값만 저장할 수 있다.",
+        "input_type": "multi_blank",
+        "answer_format_hint": "대문자로 입력하세요"
       },
       {
         "problem_number": 12,
-        "question_text": "다음 ①, ②에 해당하는 용어를 쓰시오.",
-        "examples": "① 회사나 조직의 정보를 관리하고 축적하는 시스템으로, 기업의 경영 활동에 필요한 정보를 통합적으로 처리·제공한다.\n② 포트번호 161번을 사용하며, 네트워크 기기의 네트워크 정보를 네트워크 관리 시스템에 보내는 데 사용되는 네트워크 관리 프로토콜이다.",
-        "input_type": "multi_blank",
-        "answer_format_hint": "예: ① 값 ② 값"
+        "question_text": "다음 설명에 해당하는 네트워크 관련 장비를 <보기>에서 찾아 기호로 쓰시오.",
+        "examples": "- ( 1 )는 거리가 증가할수록 감쇠하는 디지털 신호의 장거리 전송을 위해 수신한 신호를 재생시키거나 출력 전압을 높여 전송한는 장치이다.\n- ( 2 )는 LAN과 LAN을 연결하거나 LAN 안에서의 컴퓨터 그룹을 연결하는 장치로, 네트워크 수많은 단말기들에 의해 발생되는 트래픽 병목 현상을 줄일 수 있다.\n- ( 3 )는 브리지와 같이 LAN과 LAN의 연결 기능에 데이터 전송의 최적 경로를 선택하는 기능이 추가된 장치로, 네트워크 계층까지의 프로토콜 구조가 다른 네트워크 간의 연결을 위해 프로토콜 변환 기능을 수행한다.\n<보기>\nㄱ)브리지\tㄴ)게이트웨이\tㄷ)리피터\tㄹ)허브\tㅁ)스위치\tㅂ)라우터",
+        "input_type": "single",
+        "answer_format_hint": "예: ㄷ, ㄱ, ㅂ"
       },
       {
         "problem_number": 13,
-        "question_text": "다음은 SQL의 데이터 정의어(DDL)이다. 괄호 ①~③에 알맞은 명령어를 쓰시오.",
-        "examples": "역할\t명령어\n테이블 생성\t( ① ) TABLE\n테이블 수정\t( ② ) TABLE\n테이블 삭제\t( ③ ) TABLE",
-        "input_type": "multi_blank",
-        "answer_format_hint": "예: ① 값 ② 값"
+        "question_text": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오.",
+        "examples": "public class Main {\n  public static void main(String[] args) {\n    int[] arr = {1, 2, 3};\n    int sum = 0;\n    for(int i = 0; i < arr.length; i++) {\n      sum += arr[arr[i] - 1];\n    }\n    System.out.println(sum);\n  }\n}",
+        "input_type": "single"
       },
       {
         "problem_number": 14,
-        "question_text": "다음 설명에 해당하는 블랙박스 테스트 기법을 〈보기〉에서 골라 기호를 쓰시오.",
-        "examples": "범위가 -20~20일 때 -21, -20, 20, 21을 검사하고, 범위가 -100~100일 때 -101, -100, 100, 101을 검사하는 방식으로 범위의 최댓값과 최솟값 경계를 중심으로 검사하는 기법이다.\n\n〈보기〉\nㄱ. 경계치 커버리지 검사\nㄴ. 동치 분할 그래프\nㄷ. 원인 결과 커버리지 분석\nㄹ. 결정 테이블 테스트",
+        "question_text": "데이터베이스의 무결성에 대한 다음 설명에서 괄호에 들어갈 알맞은 답을 쓰시오.",
+        "examples": "무결성이란 데이터베이스에 저장된 데이터 값과 그것이 표현하는 현실 세계의 실제 값이 일치하는 정확성을 의미한다. 무결성 제약 조건은 데이터베이스에 들어 있는 데이터의 정확성을 보장하기 위해 부정확한 자료가 데이터베이스 내에 저장되는 것을 방지하기 위한 제약 조건을 말한다.\n\n<회원>\n이름\t주민번호\t\t\t주소\nkim\t\t800212-2*******\t서울\nchoi\t820911-1*******\t경기\nkang\t750815-1*******\t인천\n\n<결제>\n결제번호\t주문 상품\t회원\n1\trx-123\tchoi\n2\tdp-01\tkim\n3\tqv-433\tkang\n\n위의 두 테이블에서는 (결제) 테이블의 '회원' 속성이 (회원) 테이블의 '이름' 속성을 참조하는 외래키이므로 (      ) 무결성 제약 조건이 준수되어야 한다.",
         "input_type": "single"
       },
       {
+        "problem_number": 15,
+        "question_text": "경로 제어에 대한 다음 설명에 해당하는 프로토콜을 <보기>에서 찾아 쓰시오.",
+        "examples": "- 거리 벡터 라우팅 프로토콜이라고 불리며, 최단 경로 탐색에 Bellman-Ford 알고리즘을 사용한다.\n- 소규모 자율 시스템(AS)내에서 효율적인 방법이다.\n- 최대 홉(Hop) 수를 15로 제한하므로 15를 초과하는 자율 시스템을 구축할 수 없다.\n- 라우팅 정보를 30초마다 네트워크 내의 모든 라우터에 알리며, 180초 이내에 새로운 라우팅 정보가 수신되지 않으면 해당 경로를 이상 상태로 간주한다.\n<보기>\n-IGP\t-OSPF\t-BGP\t-EGP\n-AODV\t-DRP\t-ICMP\t-RIP",
+        "input_type": "single"
+      },
+      {
+        "problem_number": 16,
+        "question_text": "사용자 인터페이스(UI)는 상호작용의 수단 및 방식에 따라 다음과 같이 구분된다 괄호에 들어갈 알맞은 용어를 <보기>에서 찾아 기호를 순서대로 쓰시오",
+        "examples": "-( 1 ): 아이콘이나 메뉴를 마우스로 선택하여 작업을 수행하는 그래픽 환경의 인터페이스이다.\n-( 2 ): 인터넷이나 웹 브라우저에서 웹 페이지를 조작하는 인터페이스이다.\n-( 3 ): 명령과 출력이 텍스트 형태로 이뤄지는 인터페이스이다.\n-( 4 ): 텍스트와 기호를 사용하여 정보를 표시하고 상호작용하는 텍스트 기반 인터페이스이다.\n<보기>\nㄱ-CLI\tㄴ-TUI\tㄷ-GUI\tㄹ-WUI",
+        "input_type": "multi_blank",
+        "input_labels": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer_format_hint": "예: 1: ㄱ / 2: ㄴ / 3: ㄷ / 4: ㄹ"
+      },
+      {
+        "problem_number": 17,
+        "question_text": "다음 C언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오.(단,출력문의 출력 서식을 준수하시오.)",
+        "examples": "#include <stdio.h>\nint partition(int* arr, int left, int right) {\n  int pivot = arr[(left + right) / 2];\n  int tmp;\n  while (left <= right) {\n    while (arr[left] < pivot)\n      left++;\n    while (arr[right] > pivot)\n      right--;\n    if (left <= right) {\n      tmp = arr[left];\n      arr[left] = arr[right];\n      arr[right] = tmp;\n      left++;\n      right--;\n    }\n  }\n  return left;\n}\n\nvoid sort(int* arr, int left, int right) {\n  int pivot;\n  if (left < right) {\n    pivot = partition(arr, left, right);\n    sort(arr, left, pivot - 1);\n    sort(arr, pivot, right);\n  }\n}\n\nint main() {\n  int arr[] = { 1, 22, 5, 43, 19, 57, 75, 8, 27, 13 };\n  sort(arr, 0, 9);\n\n  for (int i = 0; i < 10; i++) {\n    if (i % 2 == 1) {\n      printf(\"%d \", arr[i]);\n    }\n  }\n  return 0;\n}",
+        "input_type": "single"
+      },
+      {
+        "problem_number": 18,
+        "question_text": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오. (단, 출력문의 출력 서식을 준수하시오)",
+        "examples": "#include <stdio.h>\nstruct A {\n  int x;\n  int y;\n  int temp;\n};\n\nint main() {\n  struct A data = {5, 3};\n  struct A *p;\n  p = &data;\n  p->temp = p->x * p->y + 2;\n  printf(\"%d\", p->temp);\n  return 0;\n}",
+        "input_type": "single"
+      },
+      {
+        "problem_number": 19,
+        "question_text": "테스트 기법 중 다음과 같이 '평가점수'를 미리 정해 놓은 후 각 영역의 경계에 해당하는 입력값을 넣고 실행한 예상 출력값과 실제 결과를 비교하는 방식의 기법 테스트 기법을 <보기>에서 찾아 기호로 쓰시오.",
+        "examples": "<평가점수표>\n평가점수\t성적등급\n90~100\tA\n80~89\tB\n70~79\tC\n0~69\tD\n\n<케이스>\n테스트 케이스\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10\n입력값\t\t  -1\t0\t69\t70\t79\t80\t89\t90\t100\t101\n예상 결과값\t  오류\tD\tD\tC\tC\tB\tB\tA\tA\t오류\n실제 결과값\t  오류\tD\tD\tC\tC\tB\tB\tA\tA\t오류\n\n<보기>\nㄱ. Equivalence Partitioning Testing\nㄴ. Comparison Testing\nㄷ. Boundary Value Analysis\nㄹ. Cause-Effect Graphing Testing",
+        "input_type": "textarea"
+      },
+      {
         "problem_number": 20,
-        "question_text": "다음 Java 프로그램의 실행 결과를 쓰시오.",
-        "examples": "public class Main {\n    public static void main(String[] args) {\n        B a = new B(3);\n        B b = new B(3);\n        B[] bs = {a, b};\n        B temp = bs[0];\n        bs[1] = bs[0];\n        bs[0] = temp;\n        bs[0].a += bs[1].a;\n        System.out.print(bs[0].a);\n    }\n}\nclass B {\n    int a;\n    B(int a) {\n        this.a = a;\n    }\n}",
+        "question_text": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오. (단, 출력문의 출력 서식을 준수하시오)",
+        "examples": "#include <stdio.h>\nint main() {\n  int a = 5;\n  int b = 8;\n  int *p = &a;\n  int *q = &b;\n  int **r = &p;\n  **r += *q;\n  printf(\"%d\", a);\n  return 0;\n}",
         "input_type": "single"
       }
     ]
-  }
-]
+  }]

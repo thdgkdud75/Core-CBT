@@ -13,9 +13,9 @@
       {
         "problem_number": 2,
         "question_text": "개체와 관계를 아래 E-R모델에서 찾아 쓰시오",
-        "examples": "E-R모델 요소\n- 개체 후보: 고객, 책, 출판사\n- 관계 후보: 구매, 공급\n\n정답 형식\n1. 개체 :\n2. 관계 :",
+        "examples": "<보기>\n<img src=\"/23-1-2.png\" alt=\"ER diagram\" />",
         "options": [
-          "1. 개체 : 고객, 책, 출판사 / 2. 관계 : 구매, 공급"
+          "고객 책 출판사 / 구매 공급"
         ],
         "input_type": "multi_blank",
         "input_labels": [
@@ -74,8 +74,13 @@
         "problem_number": 9,
         "question_text": "다음은 IPv4 헤더이다. Header Length와 Destination IP Address 크기를 구하시오",
         "examples": "IPv4 헤더 필드 크기 문제\n- Header Length 필드 크기\n- Destination IP Address 필드 크기",
+        "input_type": "multi_blank",
+        "input_labels": [
+          "Header Length",
+          "Destination IP Address"
+        ],
         "options": [
-          "Header Length : 4 / Destination IP address : 32"
+          "4, 32"
         ]
       },
       {
@@ -111,10 +116,17 @@
       },
       {
         "problem_number": 14,
-        "question_text": "데이터 링크 계층 기능 중 옳은 것을 모두 고르시오",
-        "examples": "<보기>\nㄱ. 주소 지정\nㄴ. 순서 제어\nㄷ. 흐름 제어\nㄹ. 오류 처리\nㅁ. 동기화",
+        "question_text": "다음 <보기>에서 OSI 참조 모델의 데이터 링크 계층이 수행하는 기능을 모두 찾아 기호로 쓰시오",
+        "examples": "ㄱ. 흐름 제어\tㄴ. 주소 지정\tㄷ. 순서 제어\tㄹ. 구문 검색\nㅁ. 오류 처리\tㅂ. 대화 생성\tㅅ. 동기화\tㅇ. 문맥 관리",
         "options": [
-          "ㄴ, ㄷ, ㄹ, ㅁ"
+          "ㄱ, ㄷ, ㅁ, ㅅ"
+        ],
+        "input_type": "ordered_sequence",
+        "input_labels": [
+          "1",
+          "2",
+          "3",
+          "4"
         ]
       },
       {
@@ -135,8 +147,8 @@
       },
       {
         "problem_number": 17,
-        "question_text": "다음은 데이터 베이스 질의 처리기에 대한 설명이다. <보기>에서 고르시오",
-        "examples": "1. 데이터 조작어(삽입, 삭제, 수정, 검색) 요청을 분석하여 런타임 데이터베이스 처리기가 이해할 수 있도록 해석한다\n2. 데이터베이스에 접근하는 과정에서 사용자의 접근 권한이 유효한지 검사하고 데이터베이스 무결성을 유지하기 위한 제약조건 위반 여부를 확인한다. 회복이나 병행 수행과 관련된 작업도 한다.\n\n<보기>\nㄱ. DDL 컴파일러\nㄴ. DML 프리컴파일러\nㄷ. DML 컴파일러\nㄹ. 런타임 데이터베이스 처리기\nㅁ. 트랜잭션 관리자",
+        "question_text": "데이터베이스 관리 시스템(DBMS)의 구성에 대한 다음 설명에서 1,2번에 알맞은 답을 <보기>에서 찾아 쓰시오.",
+        "examples": "1. 데이터 조작어 요청을 받으면 데이터베이스 처리기가 이해할수 있도록 해석하는 모듈\n2. 접근한 사용자의 권한을 확인(인증)하고, 무결성 유지, 회복 및 병행작업 통제 등을 수행하는 모듈\n<보기>\n-데이터베이스 스키마\t-질의 처리기\t-DML 컴파일러\t-파일 관리 프로그램\n-데이터 사전\t-DDL 컴파일러\t-데이터베이스\t-트랜직션 관리자",
         "input_type": "multi_blank",
         "input_labels": [
           "1",
@@ -147,7 +159,7 @@
       {
         "problem_number": 18,
         "question_text": "문장 커버리지 수행 순서를 쓰시오",
-        "examples": "코드 및 순서도 기준 문장 커버리지 테스트 케이스 순서 문제\n<테스트 케이스>\n1 -> ( ) -> ( ) -> ( ) -> ( ) -> ( ) -> ( )",
+        "examples": "<보기>\n<img src=\"/23-1-18.jpg\" alt=\"flowchart\" />\n코드 및 순서도 기준 문장 커버리지 테스트 케이스 순서 문제\n<테스트 케이스>\n1 -> ( ) -> ( ) -> ( ) -> ( ) -> ( ) -> ( )",
         "input_type": "ordered_sequence",
         "input_labels": [
           "1",

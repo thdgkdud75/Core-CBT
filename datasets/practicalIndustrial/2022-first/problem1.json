@@ -47,6 +47,12 @@
         "input_type": "single"
       },
       {
+        "problem_number": 8,
+        "question_text": "자료 구조에 대한 다음 설명에 해당하는 용어를 쓰시오.",
+        "examples": "리스트의 한쪽 끝으로만 자료의 삽입, 삭제 작업이 이루어지는 자료 구조로, 가장 나중에 삽입된 자료가 가장 먼저 삭제되는 후입선출(LIFO; Last In First Out)방식으로 자료를 처리한다. 재귀 호출, 후위(Postfix) 표기법, 서브루틴 호출, 인터럽트 처리, 깊이 우선 탐색 등에 사용된다",
+        "input_type": "single"
+      },
+      {
         "problem_number": 9,
         "question_text": "다음 C언어로 구현된 프로그램을 분석하여 그 실행결과를 쓰시오.",
         "examples": "#include <stdio.h>\n\nmain() {\n  int n=3, r=0;\n  for(int i=1; i<10; i=i+2)\n    r=r+n*i;\n  printf(\"%d\", r);\n}",
@@ -85,9 +91,9 @@
       {
         "problem_number": 15,
         "question_text": "<인사팀>의 인원이 총 20명이고, 그 중 3명은 20대, 6명은 30대, 나머지는 40대일 때, 다음 <SQL문>으로 검색될 수 있는 튜플의 개수(인원 수)를 쓰시오.",
-        "examples": "SELECT 이름 FROM 인사팀 WHERE 나이 BETWEEN 35 AND 49;\n\n답 : 11, 17",
-        "input_type": "single",
-        "answer_format_hint": "예: 11, 17"
+        "examples": "SELECT 이름 FROM 인사팀 WHERE 나이 BETWEEN 35 AND 49;\n답 : ( ① ) 명 이상, ( ② )명 이하",
+        "input_type": "multi_blank",
+        "answer_format_hint": "예: 1, 2"
       },
       {
         "problem_number": 16,

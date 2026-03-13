@@ -1,147 +1,126 @@
-[
+﻿[
   {
     "title": "정보처리산업기사 실기",
     "problems": [
       {
         "problem_number": 1,
-        "question_text": "HTTP 프로토콜이 사용하는 기본 포트 번호는 몇 번인가?",
-        "examples": "",
-        "input_type": "single"
+        "question_text": "다음에서 데이터베이스의 특징을 모두 골라 기호 쓰시오",
+        "examples": "ㄱ-실시간 접근성\tㄴ-계속적인 변화\tㄷ-동시 공용\nㄹ-주소 기반 참조\tㅁ-내용에 의한 참조",
+        "input_type": "unordered_symbol_set",
+        "input_labels": ["ㄱ", "ㄴ", "ㄷ", "ㄹ"]
       },
       {
         "problem_number": 2,
-        "question_text": "시분할 시스템을 위해 설계된 선점형 스케줄링의 하나로서, 프로세스들 사이에 우선순위 없이 순서대로 일정 시간(Time Quantum)씩 CPU를 할당하는 방식의 CPU 스케줄링 알고리즘은?",
-        "examples": "할당된 시간 내 처리를 못하면 준비 큐 맨 뒤로 이동하며, 할당 시간이 클 경우 FCFS와 비슷해진다.",
+        "question_text": "다음에서 릴레이션의 특징을 모두 골라 기호 쓰시오",
+        "examples": "ㄱ-릴레이션에서 튜플은 중복되지 않는다\tㄴ-릴레이션에서 튜플의 순서는 유의미하다\nㄷ-릴레이션에서 속성의 순서는 유의미하다\tㄹ-릴레이션에서 속성값은 원자 값을 쓸 수 없다\nㅁ-릴레이션에서 속성값은 중복될 수 없다",
         "input_type": "single"
       },
       {
         "problem_number": 3,
-        "question_text": "이더넷과 토큰링의 특징을 합친 형태로, 공장 자동화에 많이 응용된다. 토큰링 방식이며 논리적·순차적으로 데이터를 전달하고, CSMA/CD와 달리 충돌을 예방하는 LAN 방식은?",
-        "examples": "",
+        "question_text": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오",
+        "examples": "public class Main {\n    static class A {\n        static String nu() { return \"A\"; }\n        String mo() { return \"a\"; }\n    }\n\n    static class B extends A {\n        static String nu() { return \"B\"; }\n        String mo() { return \"b\"; }\n    }\n\n    public static void main(String[] args) {\n        A tester = new B();\n        System.out.println(tester.nu() + tester.mo());\n    }\n}",
         "input_type": "single"
       },
       {
         "problem_number": 4,
-        "question_text": "호스트 언어 방식에서 응용 프로그램 내에 삽입되어 데이터베이스에 접근할 때 사용하는 SQL은?",
-        "examples": "",
+        "question_text": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오",
+        "examples": "#include <stdio.h>\n\nint fn(int *a, int *b) {\n    *a = *a + *b;\n    return (*b = *a - *b);\n}\n\nint main() {\n    int x = 2;\n    int y = 3;\n\n    printf(\"%d\", fn(&x, &y) + y);\n    return 0;\n}",
         "input_type": "single"
       },
       {
         "problem_number": 5,
-        "question_text": "쉘(Shell)의 특징으로 옳은 것을 모두 고르시오.",
-        "examples": "ㄱ. 명령어 해석기\nㄴ. 주기억장치에 상주하지 않고, 보조기억장치에 파일 형태로 존재하며 교체 가능\nㄷ. 응용프로그램과 하드웨어의 인터페이스 역할",
+        "question_text": "다음 설명에서 해당하는 용어를 <보기>에서 찾아 쓰시오.",
+        "examples": "-HTTP 프로토콜을 통해 클리언트로부터 직접 요청을 받아 처리한 후 결과를 클라이언트에 다시 보내는 역활을 한다.\n-클라이언트가 요청하는 자원은 URL 형태로 받아 내부 파일 시스템과 매핑하여 처리한다\n-대표적인 것으로는 아파치(Apache), 엔진엑스(nginx), MS의 IIS(Internet Information Services)등이 있다\n\n-WAS\t-Load Balancer\t-DBMS\n-DBMS\t-Web Server\t\t-Proxy Servert",
         "input_type": "single"
       },
       {
         "problem_number": 6,
-        "question_text": "관계형 데이터베이스에서 릴레이션의 속성 개수를 (①), 튜플의 수를 (②)라 한다. 아래 릴레이션이 속성 3개, 튜플 4개일 때 두 값을 구하시오.",
-        "examples": "",
-        "input_type": "multi_blank",
-        "answer_format_hint": "예: ① 값 ② 값"
+        "question_text": "인터넷 프로토콜에 대한 다음 설명에서 괄호에 공통으로 들어갈 알맞은 답을 영어 약어으로 쓰시오.",
+        "examples": "-() 주소는 인터넷에 연결된 모든 컴퓨터의 자원을 구분하기 위한 고유한 주소이다.\n-()는 패킷 주소를 해석하고 경로를 결정하여 다음호스트로 전송한다.\n-()는 OSI 7계층의 네트워크 계층에 해당한다.",
+        "input_type": "single"
       },
       {
         "problem_number": 7,
-        "question_text": "소프트웨어 개발 단계에 따른 테스트 순서에서, 단위 테스트(Unit Test) 다음에 수행하는 테스트는 무엇인가?",
-        "examples": "",
+        "question_text": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오",
+        "examples": "public class Main {\n    static int x = f();\n\n    static int f() {\n        System.out.print(\"A\");\n        return 1;\n    }\n\n    static {\n        x++;\n    }\n\n    public static void main(String[] args) {\n        System.out.print(x);\n    }\n}",
         "input_type": "single"
       },
       {
         "problem_number": 8,
-        "question_text": "다음 설명에 해당하는 프로토콜을 쓰시오.",
-        "examples": "① 회사나 조직의 정보를 관리하는 디렉터리 서비스 시스템으로, 정보 축적이 가능한 프로토콜\n② 포트번호 161번을 사용하며, 네트워크 기기의 정보를 네트워크 관리 시스템에 전달하는 데 사용되는 프로토콜",
-        "input_type": "multi_blank",
-        "answer_format_hint": "예: ① 값 ② 값"
+        "question_text": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오 (단, 출력문의 출력 서식을 준수하시오.)",
+        "examples": "#include <stdio.h>\n\ntypedef struct {\n    int x;\n} Struct;\n\nvoid change(Struct *a, Struct b) {\n    a->x += b.x;\n    b.x = 100;\n    a = &b;\n    a->x = 200;\n}\n\nint main() {\n    Struct b1 = {3};\n    Struct b2 = {4};\n    change(&b1, b2);\n    printf(\"%d \", b1.x);\n    return 0;\n}",
+        "input_type": "single"
       },
       {
         "problem_number": 9,
-        "question_text": "DDL 명령어 빈칸 채우기",
-        "examples": "테이블 생성: (①) TABLE\n테이블 수정: (②) TABLE\n테이블 삭제: (③) TABLE",
-        "input_type": "multi_blank",
-        "answer_format_hint": "예: ① 값 ② 값"
+        "question_text": "애플리케이션 테스트에 대한 다음 설명에서 괄호(1, 2)에 들어갈 알맞은 용어를 쓰시오.",
+        "examples": "-(  1  ) 박스 테스트는 소프트웨어가 수행할 특정 기능을 알기 위해서 각 기능이 완전히 작동되는 것을 입증하는 테스트로, 기능 테스트라고도 한다. 사용자의 요구사항 명세를 보면서 테스트하며, 주로 구현된 기능을 테스트한다.\n-(  2  ) 박스 테스트는 모듈의 원시 코드를 오픈시킨 상태에서 원시 코드의 논리적인 모든 경로를 테스트하여 테스트 케이스를 설계하는 방법이다",
+        "input_type": "single"
       },
       {
         "problem_number": 10,
-        "question_text": "테스트 범위가 -20~20일 때 -21, -20, 20, 21을 검사하고, -100~100일 때 -101, -100, 100, 101을 검사하는 방식이다. 범위의 최댓값·최솟값 주변 값을 검사하는 이 블랙박스 테스트 기법은?",
-        "examples": "ㄱ. 경계치 커버리지 검사\nㄴ. 동치 분할 그래프\nㄷ. 원인 결과 커버리지 분석",
+        "question_text": "다음 설명에 해당하는 용어를 <보기>에서 찾아 쓰시오",
+        "examples": "-소프트웨어의 개발 과저아에서 소프트웨어의 변경 사항을 관리하기 위해 개발된 일련의 활동이다.\n-소프트웨어 개발의 전체 비용을 줄이고, 개발 과정의 여러 방해 요인이 최소화되도록 보증하는 것을 목적으로 한다.\n-이를 통해 가시성과 추적성을 보장함으로써 소프트웨어의 생산성과 품질을 높일 수 있다.\n<보기>\n-품질 보증\t-요구사항 관리\t-형상 관리\n-테스트 관리\t위험 관리\t-프로젝트 관리",
         "input_type": "single"
       },
       {
         "problem_number": 11,
-        "question_text": "소프트웨어 유지보수 유형 중, 사용자의 새로운 요구나 환경 변화에 맞게 기능을 추가하거나 개선하는 유지보수 유형은?",
-        "examples": "",
+        "question_text": "다음은 <성적> 테이블에서 점수가 80 이상 90 이하인 모든 튜플을 조회하는 두 가지 방법을 보여주는 <SQL문>이다. 괄호(1, 2)에 알맞은 답을 적어 <SQL문>을 완성하시오.",
+        "examples": "<SQL 문>\n방법 1 - SELECT + FROM 성적 WHERE 점수 >= 80(  1  ) 점수 <= 90;\n방법 2 - SELECT + FROM 성적 WHERE 점수(  2  )80 AND 90;",
         "input_type": "single"
       },
       {
         "problem_number": 12,
-        "question_text": "데이터베이스에서 릴레이션의 기본키가 NULL 값을 가져서는 안 된다는 제약 조건은?",
-        "examples": "",
+        "question_text": "다음 설명에 해당하는 알맞은 용어를 쓰시오.",
+        "examples": "-컴퓨터와 컴퓨터 또는 컴퓨터와 인터넷 사이에서 파일을 주고받을 수 있도록 하는 원격 파일 전송 프로토콜이다.\n-파일의 전송(Upload)과 수신(Download), 삭제, 이름변경 등의 작업을 할 수 있다.\n-그림 파일, 동영상 파일, 실행 파일, 압축된 형태의 파일을 전송할 때에는 Binary 모드를, 텍스트 파일을 전송할 떄에는 ASCI 모드를 사용한다.\n-일반적으로 20,21번의 포트 번호를 사용한다.",
         "input_type": "single"
       },
       {
         "problem_number": 13,
-        "question_text": "네트워크에서 목적지 호스트까지의 경로(홉)를 추적하는 명령어는? (윈도우 기준)",
-        "examples": "",
+        "question_text": "다음 설명에 해당하는 네트워크 관련 명령어를 쓰시오.",
+        "examples": "-ICMP 기능을 이용하여 원격 컴퓨터가 현재 네트워크에 연결되어 정상적으로 작동하고 있는지 알아보느 서비스이다.\n-TCP/IP 프로토콜을 사용하는 네트워크에서 다른 호스트 컴퓨터에 IP 데이터그램을 전송하여 정상적으로 도착하면 해당 컴퓨터는 올바르게 작동하는 것이다.\n-명령 프롬프트 창에 'X 211.11.14.177' 이나 'X www.gilbut.co.kr' 형식으로 입력한다.",
         "input_type": "single"
       },
       {
         "problem_number": 14,
-        "question_text": "소프트웨어 개발에서 형상 항목의 변경을 체계적으로 관리하고 통제하는 활동은?",
-        "examples": "",
+        "question_text": "데이터베이스에 대한 다음 설명에서 괄호에 들어갈 알맞은 답을 쓰시오",
+        "examples": "스키마는 데이터베이스의 구조와 제약 조건에 관한 전반적인 명세를 기술한 것이다.\n-(  1  )스키마: 사용자나 응용 프로그래머가 각 개인의 입장에서 필요로 하는 데이터베이스의 논리적 구조를 정의한 것이다.\n-(  2  )스키마: 데이터베이스의 전체적인 논리적 구조이며, 모든 응용 프로그램이나 사용자들이 필요로 하는 데이터를 종합한 조직 전체의 데이터베이스로, 하나만 존재한다.\n-(  3  )스키마: 물리적 저장장치의 입장에서 본 데이터베이스 구조로, 실제로 저장될 레코드의 형식, 저장 데이터 항목의 표현 방법, 내부 레코드의 물리적 순서 등을 나타낸다",
         "input_type": "single"
       },
       {
         "problem_number": 15,
-        "question_text": "아래 C 포인터 구조체 코드에서 p1의 x=5, y=4, ptr을 통해 x+1, y+1을 가진 임시 구조체를 생성하고 ptr->x += ptr->y를 실행한다. 최종 p1.x 출력값은?",
-        "examples": "",
+        "question_text": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오",
+        "examples": "public class Main {\n    static void func(int[] a) {\n        a[0]++;\n        a = new int[]{5};\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {2};\n        func(arr);\n        System.out.println(arr[0]);\n    }\n}",
         "input_type": "single"
       },
       {
         "problem_number": 16,
-        "question_text": "FTP ?? ? ???? ?? ?? ?? ? ?? ?? ???.",
-        "examples": "",
-        "input_type": "single",
-        "answer_format_hint": "?: 20, 21 (?? ??)",
-        "accepted_answers": [
-          "20, 21",
-          "21, 20",
-          "20?, 21?",
-          "21?, 20?",
-          "20 21",
-          "21 20",
-          "20? 21?",
-          "21? 20?",
-          "20/21",
-          "21/20",
-          "20,21",
-          "21,20",
-          "20?(???), 21?(??)",
-          "21?(??), 20?(???)",
-          "20? (???), 21? (??)",
-          "21? (??), 20? (???)"
-        ]
+        "question_text": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오",
+        "examples": "public class Main {\n    int result = 0;\n\n    int test() {\n        try {\n            return 1;\n        } finally {\n            result = 2;\n        }\n    }\n\n    public static void main(String[] args) {\n        Main p = new Main();\n        System.out.print(p.test());\n    }\n}",
+        "input_type": "single"
       },
       {
         "problem_number": 17,
-        "question_text": "IPv4에서 호스트 주소 부분이 16비트인 IP 클래스는?",
-        "examples": "",
+        "question_text": "다음 Python으로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오 (단, 출력문의 출력 서식을 준수하시오.)",
+        "examples": "a = [1, 2]\nb = a\na = a + [3]\nb.append(4)\nprint(len(set(a) & set(b)))",
         "input_type": "single"
       },
       {
         "problem_number": 18,
-        "question_text": "아래 Java 퀵정렬 코드에서 int[] data = {2, 4, 10, 15, 8, 1, 7, 9, 16, 12}를 정렬 후 홀수 인덱스(i%2==1)에 해당하는 값들을 출력하면?",
-        "examples": "",
+        "question_text": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오 (단, 출력문의 출력 서식을 준수하시오.)",
+        "examples": "#include <stdio.h>\n\nvoid func(int *p) {\n    int temp[] = {0, 1, 2};\n    p = temp;\n    p[0] = 9;\n}\n\nint main() {\n    int arr[] = {3, 4, 5};\n    func(arr);\n    printf(\"%d\", arr[0]);\n    return 0;\n}",
         "input_type": "single"
       },
       {
         "problem_number": 19,
-        "question_text": "아래 C 구조체 포인터 코드에서 x=5, y=4일 때 ptr로 새 구조체(x+1, y+1)를 생성 후 ptr->x += ptr->y 수행. 최종 p1.x 값은?",
-        "examples": "",
+        "question_text": "키(Key)에 대한 다음 설명에서 괄호에 들어갈 알맞은 키의 종류를 쓰시오",
+        "examples": "다른 릴레이션의 기본키를 참조하는 속성 또는 속성들의 집합을 의미하는 키로, 참조되는 릴레이션의 기본키와 대응되어 릴레이션 간에 참조 관계를 표현하는데 중요한 도구이다.\n\n(학생): 학번, 주민등록번호, 성명\n(수강): 학번, 과목명\n\n(수강) 릴레이션의 학번은 (학생) 릴레이션의 기본키인 학번을 참조하고 있으므로 (수강) 릴레이션에서 학번은 (      )가 된다.",
         "input_type": "single"
       },
       {
         "problem_number": 20,
-        "question_text": "아래 Java 코드의 출력값은?",
-        "examples": "public class Main {\n  public static void main(String[] args) {\n    B a = new B(3);\n    B b = new B(3);\n    B[] bs = {a, b};\n    B temp = bs[0];\n    bs[1] = bs[0];\n    bs[0] = temp;\n    bs[0].a += bs[1].a;\n    System.out.print(bs[0].a);\n  }\n}\nclass B { int a; B(int a) { this.a = a; } }",
+        "question_text": "IP 주소는 네트워크 부분의 길이에 따라 A, B, C, D, E 클래스로 구성되어 있다. 다음 괄호(①~③)에 들어갈 알맞은 클래스를 쓰시오",
+        "examples": "(1)  1 | 1 | 0 | 5bit | 8bit | 8bit | 8bit\n     [---------네트워크 ID----------][호스트 ID]\n\n(2)  1 | 0 | 6bit | 8bit | 8bit | 8bit\n     [----네트워크 ID----][- 호스트 ID -]\n\n(3)  0 | 7bit | 8bit | 8bit | 8bit\n   [네트워크 ID][---- 호스트 ID ----]",
         "input_type": "single"
       }
     ]
