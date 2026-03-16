@@ -1165,6 +1165,19 @@ export default function PracticalQuiz({
 
   const handleSequenceSlotInput = (problemNumber, slotIndex, rawValue) => {
     if (!sequenceMeta) return;
+
+    // Allow pasting a full sequence (e.g. "ㄷ-ㄴ-ㄹ-ㅁ-ㄱ") into a single slot
+    // by splitting it into tokens and populating the draft accordingly.
+    if (sequenceMeta.mode !== 'unordered_symbol_set') {
+      const pastedTokens = splitSequenceDraft(rawValue, sequenceMeta.count).filter(Boolean);
+      if (pastedTokens.length > 1) {
+        const next = Array.from({ length: sequenceMeta.count }, (_, idx) => pastedTokens[idx] || '');
+        const combined = next.filter(Boolean).join('-');
+        handleSubjectiveInput(problemNumber, combined);
+        return pastedTokens[0] || '';
+      }
+    }
+
     const next = [...sequenceDraft];
     const sanitized = sequenceMeta.mode === 'unordered_symbol_set' ? rawValue : sanitizeSequenceToken(rawValue, sequenceMeta.kind);
     next[slotIndex] = sanitized;

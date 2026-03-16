@@ -5,7 +5,7 @@
       {
         "problem_number": 1,
         "correct_answer_index": 0,
-        "correct_answer_text": "4"
+        "correct_answer_text": "5"
       },
       {
         "problem_number": 2,
@@ -40,7 +40,7 @@
       {
         "problem_number": 8,
         "correct_answer_index": 0,
-        "correct_answer_text": "가: 사용자요구사항 / 나: 분석 / 다: 설계 / 라: 구현 / 마: 단위테스트 / 바: 통합테스트 / 사: 시스템테스트 / 아: 인수테스트"
+        "correct_answer_text": ["가: 요구사항 / 나: 분석 / 다: 설계 / 라: 구현 / 마: 단위테스트 / 바: 통합테스트 / 사: 시스템테스트 / 아: 인수테스트",  "가: 요구사항 / 나: 분석 / 다: 설계 / 라: 구현 / 마: 단위 테스트 / 바: 통합 테스트 / 사: 시스템 테스트 / 아: 인수 테스트"]
       },
       {
         "problem_number": 9,
@@ -55,7 +55,7 @@
       {
         "problem_number": 11,
         "correct_answer_index": 0,
-        "correct_answer_text": "가: 네트워크 / 나: 패킷 / 다: 데이터링크 / 라: 프레임 / 마: 물리 / 바: 비트 / 사: 전송 / 아: 세그먼트"
+        "correct_answer_text": "① BIOS ② 버퍼링"
       },
       {
         "problem_number": 12,
@@ -85,12 +85,12 @@
       {
         "problem_number": 17,
         "correct_answer_index": 0,
-        "correct_answer_text": "1) BIOS / 2) 버퍼링"
+        "correct_answer_text": "① 정규화 / ② 이상 / ③ 갱신 / ④ C / ⑤ BCNF"
       },
       {
         "problem_number": 18,
         "correct_answer_index": 0,
-        "correct_answer_text": "2번 출력 : tset\n1번 출력 : gnirts"
+        "correct_answer_text": "(가) tset / (나) gnirts"
       },
       {
         "problem_number": 19,

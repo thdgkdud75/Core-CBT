@@ -4,83 +4,83 @@
     "comments": [
       {
         "problem_number": 1,
-        "comment": ""
+        "comment": "문자열 abCDEFgH에서 대문자는 C, D, E, F, H이다.\n따라서 대문자 개수는 5이다."
       },
       {
         "problem_number": 2,
-        "comment": ""
+        "comment": "데이터 전송 절차는 회선 접속 → 데이터링크 설정 → 정보 전송 → 데이터링크 해제 → 회선 절단 순서이다."
       },
       {
         "problem_number": 3,
-        "comment": ""
+        "comment": "송신 측에서 부가 정보를 함께 보내 수신 측이 오류를 검출하고 스스로 정정하는 방식이다."
       },
       {
         "problem_number": 4,
-        "comment": ""
+        "comment": "배열 {1,2,3,4,5,6}의 값을 모두 더한다.\n1+2+3+4+5+6 = 21."
       },
       {
         "problem_number": 5,
-        "comment": ""
+        "comment": "메시지 교환, 가상회선, 데이터그램 방식은 축적(Store and Forward) 방식을 사용한다.\n회선 교환은 전용 회선을 미리 설정하므로 축적 교환이 아니다."
       },
       {
         "problem_number": 6,
-        "comment": ""
+        "comment": "릴레이션: 테이블 형태의 데이터 저장 단위, 도메인: 속성이 가질 수 있는 값의 집합.\nSQL: BETWEEN 5000 AND 7000, GROUP BY 후 조건은 HAVING, INSERT는 VALUES 사용."
       },
       {
         "problem_number": 7,
-        "comment": ""
+        "comment": "정규화는 데이터 중복을 줄여 이상 현상(삽입·갱신·삭제)을 제거하는 과정이다.\nBCNF는 모든 결정자가 후보키가 되도록 하는 정규형이다."
       },
       {
         "problem_number": 8,
-        "comment": ""
+        "comment": "V-모델은 개발 단계(분석→설계→구현)와 대응되는 테스트 단계(단위→통합→시스템→인수)가 연결된다."
       },
       {
         "problem_number": 9,
-        "comment": ""
+        "comment": "조건 두 개는 AND로 연결한다.\n중복 제거는 DISTINCT, 여러 값 조건은 IN(1,2,3) 사용."
       },
       {
         "problem_number": 10,
-        "comment": ""
+        "comment": "트래픽 제어기: CPU와 프로세스 상태 관리.\n작업·프로세스 스케줄러는 할당 결정, 디스패처는 CPU 제어 전달."
       },
       {
         "problem_number": 11,
-        "comment": ""
+        "comment": "BIOS: 전원 켜지면 POST 수행 후 장치 초기화 및 부팅 진행.\n버퍼링: 입출력 장치와 CPU 속도 차이를 줄여 대기시간 감소."
       },
       {
         "problem_number": 12,
-        "comment": ""
+        "comment": "HDLC에서 I(정보), S(감독), U(비번호) 프레임 종류를 구분하는 것은 Control 필드이다."
       },
       {
         "problem_number": 13,
-        "comment": ""
+        "comment": "돼지 수는 전체 − 오리 수이므로 pigcnt = totalcnt - duckcnt.\n다리 계산도 오리 2 + 돼지 4이므로 (2*duckcnt) + (4*pigcnt)."
       },
       {
         "problem_number": 14,
-        "comment": ""
+        "comment": "정적 테스트에서 코드를 검토하여 결함과 코딩 표준 준수 여부 등을 확인하는 기법이다."
       },
       {
         "problem_number": 15,
-        "comment": ""
+        "comment": "pop()은 마지막 요소부터 제거, pop(1)은 인덱스 1 값 제거한다."
       },
       {
         "problem_number": 16,
-        "comment": ""
+        "comment": "학생 테이블에서 학생수가 30 이하인 학과를 조건으로 검색한다."
       },
       {
         "problem_number": 17,
-        "comment": ""
+        "comment": "정규화는 데이터 중복을 줄이고 이상(삽입·삭제·갱신)을 제거하는 과정이다.\n이행적 종속은 A→B, B→C이면 A→C, BCNF는 모든 결정자가 후보키인 정규형이다."
       },
       {
         "problem_number": 18,
-        "comment": ""
+        "comment": "입력 문자열을 역순으로 출력하고, cnt가 2 → 1로 감소하며 두 번 실행된다."
       },
       {
         "problem_number": 19,
-        "comment": ""
+        "comment": "999 % i 가 0이 되는 i를 찾는다.\n329~332는 나누어떨어지지 않고 333에서 999%333=0, 이후 i++되어 334 출력."
       },
       {
         "problem_number": 20,
-        "comment": ""
+        "comment": "UPDATE에서 값을 변경할 때 SET, 조건 지정은 WHERE를 사용한다."
       }
     ]
   }
